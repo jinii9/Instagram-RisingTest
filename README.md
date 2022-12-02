@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# instagram_web_jini
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+코드 정리 노션 링크 : https://www.notion.so/6ac705a44cfd47c193df75e99e61df08
 
-## Available Scripts
+## 2022-10-29 진행사항
 
-In the project directory, you can run:
+- 기획서 보드 작성
 
-### `npm start`
+- 코드 환경 구축
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 회원가입 및 로그인 화면 구성중
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2022-10-30 진행사항
 
-### `npm test`
+- 로그인페이지 구성 - 100%
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 회원가입페이지 구성 - 100%
 
-### `npm run build`
+- 생일축하페이지 구성 - 100%
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2022-10-31 진행사항
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+(해당 작업물은 11/1에 깃허브 push)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 헤더 구성 - 100%
+- 아이디 중복 API 연결 - 100%
+- 회원가입 API 연결 준비 - 100%
+- 아이디 중복 시, (X) UI 넣기 - 80%
 
-### `npm run eject`
+## 2022-11-01 진행사항
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 아이디 중복 시, (X) UI 넣기 - 100%
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 피드 컴포넌트 구성 - 60%
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 2022-11-02 진행사항
 
-## Learn More
+- 피드 컴포넌트 구성 - 100%
+- 회원가입 API 연결
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 2022-11-03 진행사항
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- ID 중복 체크 API 코드 정리
+- 회원가입 API 정리
+- 메인 홈페이지 - 친구 추천 화면 구성
+- 프로필 메뉴 토글창 컴포넌트
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 2022-11-04 진행사항
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- 프로필 페이지 화면 구성
+- 사파리 페이지 화면 구성
+- 게시글 조회 페이지 구성 - 70%
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## 2022-11-05 진행사항
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- 게시글 조회 페이지 구성 - 100%
+- 게시글 생성 페이지 구성 - 60%
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 2022-11-06 진행사항
+
+- 게시글 생성 페이지 구성 - 100%
+- 로그인 API 연동
+- 자동로그인 API 연동
+- 회원가입 validation 추가 및 정리
+
+
+
+## 2022-11-07 진행사항
+
+- 디엠 페이지 구성
+- API 연결
+  - 내 프로필 조회 API 연동
+  - 내 프로필 수정 API 연동 준비 - 서버가 완성되지 않아서, 프로필 사진을 바꾸면 리덕스 값이 바뀌는 것으로 준비해둠
+  - 피드 컴포넌트 API 연동 준비 
+    - 처음에 해서 코드가 비효율적 => 고치기
+    - API 연동할 수 있도록 map함수로 모두 변경
+    - 더미 데이터 변경
+    
+    
+
+## 2022-11-08 진행사항
+
+- <2차 피드백>
+- 팔로우 컴포넌트
+- 스토리 컴포넌트
+- 프로필 편집 페이지 구성 - 60%
+
+
+
+## 2022-11-09 진행사항
+
+- 프로필 편집 페이지 구성 - 100%
+- 로그아웃(로컬스토리지 jwt 값 삭제)
+- 프로필 편집 페이지 구성 - 60%
+- API 연동
+
+
+
+## 2022-11-10 진행사항
+
+- API 연동
